@@ -6,14 +6,14 @@ style {
 	margin-top: 0px;
 	padding: 0px;
 	border-width: 0px;
-	
-	
 }
 
 .title {
 	text-align: center;
+	text-justify: distribute-all-lines;
 	font-size: x-large;
-	color: gold
+	color: gold;
+	height: 250px;	
 }
 
 footer {
@@ -21,11 +21,13 @@ footer {
 	color: gold;
 }
 
-section {
+.description {
 	text-align: center;
 	color: gold;
-	height: 1000px;
+	height: 500px;
 }
+
+
 
 
 
