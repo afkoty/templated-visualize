@@ -1,13 +1,13 @@
-
-style {
-	background-position: center;
-	background-size: cover
-	
+body {
+	background: url(images/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .title {
 	text-align: center;
-	text-justify: distribute-all-lines;
 	font-size: xx-large;
 	color: gold;
 	height: 50px;	
@@ -16,12 +16,19 @@ style {
 footer {
 	text-align: center;
 	color: rgb(54, 47, 8);
+
 }
 
 .description {
 	text-align: center;
 	color: gold;
-	height: 500px;
+	height: 300px;
+}
+
+.description2 {
+	text-align: center;
+	color: gold;
+	height: 300px;
 }
 
 .demo {
