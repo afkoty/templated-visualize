@@ -9,8 +9,7 @@ body {
 .title {
 	text-align: center;
 	font-size: xx-large;
-	color: gold;
-	height: 50px;	
+	color: gold;	
 }
 
 footer {
@@ -29,8 +28,8 @@ footer {
 
 .demo {
 	text-align: center;
-	color: rgb(124, 4, 52);
-	font-size: x-large;
+	color: rgb(134, 101, 165);
+	font-size: xx-large;
 }
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
@@ -66,7 +65,7 @@ footer {
 
   body {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
 }
 
@@ -91,8 +90,8 @@ footer {
 
 .contenido {
     margin: auto;
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     background-image: url(images/bg.jpg);
 	border-radius: 10px;
 	color: gold;
@@ -105,18 +104,18 @@ footer {
 #cerrar + label {
     position: fixed;
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 20px;
     z-index: 50;
     background: darkred;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     line-height: 40px;
     border-radius: 50%;
-    right: 150px;
+    right: 10%;
     top: 150px;
     cursor: pointer;
     
-    animation: modal 2s 3s forwards;
+    animation: modal 1s 2s forwards;
     visibility: hidden;
     opacity: 0;
 }
