@@ -6,17 +6,13 @@ body {
 	background-size: cover;
 }
 
-.title {
-	text-align: center;
-	font-size: xx-large;
-	color: gold;	
+
+.cover {
+    width: 73%;
+    height: auto;
+        
 }
 
-footer {
-	text-align: center;
-	color: gold;
-
-}
 
 
 .description {
@@ -27,9 +23,14 @@ footer {
 }
 
 .demo {
-	text-align: center;
-	color: rgb(134, 101, 165);
+    text-align: center;
+    color: rgb(134, 101, 165);
 	font-size: xx-large;
+}
+footer {
+	text-align: center;
+	color: gold;
+
 }
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
