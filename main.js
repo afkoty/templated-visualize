@@ -1,7 +1,7 @@
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("05/30, 2020 20:00:00 ").getTime();
+var countDownDate = new Date("09/30, 2020 20:00:00 ").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -24,7 +24,7 @@ var x = setInterval(function() {
   + minutes + "minutos " + seconds + "segundos ";
 
     //al finalizar la cuenta se anuncia el premio = var EXPIRED
-    let EXPIRED = "El primer participante en acercarce a donde Martíca en el Carmelo podrá reclamar su prémio." 
+    let EXPIRED = "Envia la palabra turbopola a iwantapola (Sólo el primer mensaje gana" 
 
 
   // If the count down is finished, write some text
